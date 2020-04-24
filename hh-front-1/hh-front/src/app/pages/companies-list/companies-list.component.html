@@ -1,0 +1,7 @@
+<div class="list">
+    <div *ngFor="let company of companies">
+        <div class="list_item" routerLink="/{{company.id}}">
+            {{company.name}}
+        </div>
+    </div>
+</div>
